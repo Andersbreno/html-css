@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci minus beatae, illum nam fuga necessitatibus aut illo vitae facilis incidunt asperiores vero nihil laborum odit? Voluptatum corporis tempore similique animi.
+    </p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primera página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus qui, provident aspernatur atque soluta facilis reiciendis consequuntur ipsam ipsum dolorum quisquam ea quod accusantium pariatur vel dolore tenetur minima non! 
+    </p>
+
+    <iframe srcdoc="<h1>Escolha um das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic omnis harum esse tempora obcaecati, vel adipisci cum doloremque perspiciatis facilis inventore consequuntur corrupti aliquid eaque quibusdam reiciendis ipsa quod exercitationem.</p>" name="frame">
+        Seu navegador não é compatível
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui nihil esse reprehenderit atque quis, quia minus modi ratione ut iure, velit rem architecto fugiat veniam cumque possimus dicta debitis corporis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde amet perferendis culpa, ad deserunt illo quod veniam quis quisquam dolorem consequuntur ab ipsum dignissimos tempora maxime. Accusamus aspernatur alias et?</p>
+</body>
+</html>
